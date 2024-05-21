@@ -37,7 +37,7 @@ void draw() {
 void keyPressed() {
   if (key == ENTER) {
     if (saveSVG) {
-      beginRecord(SVG, "result.svg");
+      beginRecord(SVG, "export.svg");
     }
     background(0);
     drawRandomBezierForm(height-(2*height/numberBeziersX), width-(2*width/numberBeziersY), width/2, height/2, cNumberPointsBig, cNumberBeziersBig, 0.75);
