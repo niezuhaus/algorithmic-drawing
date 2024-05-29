@@ -45,15 +45,14 @@ void setup() {
   noFill();
   strokeCap(SQUARE);
   noLoop();
+  stroke(0);
 }
 
 void draw() {
-  background(255);
-
   if (exportSVG) {
     beginRecord(SVG, svgFilename + ".svg");
   }
-  
+  background(255);
   if (drawRowBorder) {
     drawRowBorders();
   }
