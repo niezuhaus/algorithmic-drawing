@@ -24,7 +24,7 @@ int numberBeziersY = 4;
 //       # # #       CODE       # # #       //
 
 void setup() {
-  size(990, 700);
+  size(1050, 700);
   pixelDensity(displayDensity());
   background(0);
   textAlign(CENTER);
