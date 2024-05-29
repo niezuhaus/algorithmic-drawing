@@ -24,11 +24,11 @@ void setup() {
   stroke(0);
 }
 
-void draw() {
-  background(255); //<>//
+void draw() { //<>//
   if (clicked) {
     beginRecord(SVG, "export.svg");
   }
+  background(255);
   for (int y = 0; y <numberY; y++) {
     for (int x = 0; x < numberX; x++) {
       drawShape(x, y, createNGon(x));
