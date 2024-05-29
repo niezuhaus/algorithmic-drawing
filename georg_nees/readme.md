@@ -6,4 +6,4 @@ this sketch can generate artworks similar to Georg Nees' »Graphik aus Dreiundzw
 
 ### example
 
-![example](export.svg)
+![example](example.svg)
