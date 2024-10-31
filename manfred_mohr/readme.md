@@ -2,7 +2,7 @@
 
 this sketch can generate artworks similar to Manfred Mohrs »P021-G« (1970).
 
-### [try it out in your browser](https://niezuhaus.de/p/manfred_mohr)
+### [try it out in your browser](https://niezuhaus.de/p/algorithmic_drawing/manfred_mohr)
 
 ### original
 
